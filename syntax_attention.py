@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-Robust syntax-attention probing with UD Treebanks
-
-Automatically finds UD treebanks, samples sentences, and analyzes attention patterns
-across different languages and transformer models.
-"""
-
 import os
 import argparse
 import random
