@@ -16,6 +16,11 @@ I measure this with:
 
 ## Results
 
+Average mean_mass (attention mass pointing to the syntactic head) for each language × model pair.
 ![Mean mass by language & model](./results/plots/bar_mean_mass_lang_model.png)
+
+Sentence-level distribution of mean_mass, grouped by language and colored by model.
 ![Distribution of mean mass](./results/plots/box_mean_mass_lang_model.png)
+
+Each point is a sentence. X = mean_mass, Y = precision@1. Points are colored by language and styled by model.
 ![Mean mass vs Precision@1 (sentence-level)](./results/plots/scatter_meanmass_prec1.png)
