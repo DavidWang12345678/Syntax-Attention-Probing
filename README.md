@@ -13,3 +13,9 @@ If attention heads align strongly with **syntactic dependencies** (e.g., focusin
 I measure this with:
   - **Mean mass** → fraction of attention weight assigned to the correct syntactic head.
   - **Precision@k** → whether the head appears in the top-k attended tokens.
+
+## Results
+
+![Mean mass by language & model](./results/plots/bar_mean_mass_lang_model.png)
+![Distribution of mean mass](./results/plots/box_mean_mass_lang_model.png)
+![Mean mass vs Precision@1 (sentence-level)](./results/plots/scatter_meanmass_prec1.png)
